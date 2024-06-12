@@ -1,0 +1,18 @@
+[{
+    "nume": "Adam",
+    "varsta": 15, 
+    "adresa": "Bucuresti" 
+},
+
+{
+    "nume": "Iulia",
+    "varsta": 20, 
+    "adresa": "Constanta" 
+},
+
+{
+    "nume": "Octavian",
+    "varsta": 25, 
+    "adresa": "Ploiesti" 
+}
+]

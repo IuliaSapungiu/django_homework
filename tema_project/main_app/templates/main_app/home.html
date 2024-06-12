@@ -1,0 +1,29 @@
+{% extends "main_app/base.html" %}
+
+{% block content %}
+
+<table style="width: 50%; margin: 100px auto; border-collapse: collapse;">
+    <tr>
+
+        <th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white;">NUME</th>
+        <th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white;">VARSTA</th>
+        <th style="border: 1px solid #ddd; padding: 8px; background-color: #4CAF50; color: white;">ADRESA</th>
+
+    </tr>
+
+    {% for elem in person %}
+
+    <tr>
+
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><strong> {{ elem.nume }} </strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><strong> {{ elem.varsta }} </strong></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><strong> {{ elem.adresa }} </strong></td>
+        
+
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+{% endblock %}

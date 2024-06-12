@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>People</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        header {
+            background-color: #a3670d;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #ec920b;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Person Information</h1>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Reserved Rights</p>
+    </footer>
+</body>
+</html>
